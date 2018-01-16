@@ -16,7 +16,7 @@ object Example_01 extends App {
 
     override def receive: Receive = {
       case "test" => log.info("test")
-      case _      => log.info("other")
+      case _      => log.info("other"); sender() ! "test"
     }
   }
 

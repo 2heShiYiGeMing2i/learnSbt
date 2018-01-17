@@ -60,11 +60,10 @@ object Example13 extends App {
           for {
             //向basicInfo 发送 send-and-receive-future 消息 mapTo方法返回将返回结果映射为BasicInfo类型
             basicInfo <- ask(basicInfoActor, id).mapTo[BasicInfo]
-            //向InterestInfo发送 send-and-receive-future 消息
+            interestInfo <- ask(interestInfoActor, id).mapTo[InterestInfo] //向InterestInfo发送 send-and-receive-future 消息
+//            interestInfo <- (interestInfoActor ask id).mapTo[InterestInfo]
+//            interestInfo <- (interestInfoActor ? id).mapTo[InterestInfo]
             //三种方式
-            interestInfo <- ask(interestInfoActor, id).mapTo[InterestInfo]
-            //            interestInfo <- (interestInfoActor ask id).mapTo[InterestInfo]
-            //            interestInfo <- (interestInfoActor ? id).mapTo[InterestInfo]
           } yield {
             log.info("ask for yield")
             Person(basicInfo, interestInfo)

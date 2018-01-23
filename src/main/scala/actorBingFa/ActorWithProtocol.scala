@@ -9,18 +9,18 @@ class ActorWithProtocol extends Actor with Stash {
   def receive = {
     case "open" ⇒
       System.err.println("1 open")
-      unstashAll()
+      //      unstashAll()
       context.become({
         case "write" ⇒
           System.err.println("2 write")
         case "close" ⇒
           System.err.println("3 close")
-          unstashAll()
+          //          unstashAll()
           context.unbecome()
         case msg     ⇒ System.err.println("4 other"); stash()
       }, discardOld = false)
     case "done" ⇒ System.err.println("5 done")
-    case msg    ⇒ System.err.println("6"); stash()
+    case msg    ⇒ System.err.println(s"6 other $msg"); stash()
   }
 }
 
@@ -30,8 +30,9 @@ object ActorWithProtocol extends App {
   actor1.tell("open", actor1)
   actor1 ! "write"
   actor1 ! "close"
-  //  actor1 ! "open"
+//  actor1 ! "open"
   actor1 ! "done"
   actor1 ! "done"
   actor1 ! "done"
+  actor1 ! "other"
 }

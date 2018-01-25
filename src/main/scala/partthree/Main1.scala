@@ -5,7 +5,7 @@ import scala.io.Source
 /**
   * Created by zhaolei on 2018/1/3
   */
-object Main {
+object Main1 {
 
   def numLength(s: String): Int = s.length.toString.length
 

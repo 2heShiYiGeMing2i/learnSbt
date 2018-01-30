@@ -1,4 +1,4 @@
-package partthree
+package part3
 
 import scala.language.reflectiveCalls
 import scala.util.control.NonFatal

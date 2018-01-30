@@ -1,4 +1,4 @@
-package partone
+package part1
 
 /**
   * Created by zhaolei on 2018/1/2

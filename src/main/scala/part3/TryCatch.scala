@@ -1,4 +1,4 @@
-package partthree
+package part3
 
 /**
   * Created by zhaolei on 2018/1/4

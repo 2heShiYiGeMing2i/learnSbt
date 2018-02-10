@@ -1,5 +1,3 @@
-import sun.reflect.generics.tree.ReturnType
-
 import scala.math.Ordering
 
 case class MyList[A](list: List[A]) {
@@ -23,11 +21,11 @@ list.sortBy2(i => -i)
 
 
 class C[A] {
-  def m1[B]()(implicit view: A => B): ReturnType = {
-    ???
-  }
-
-  def m2(A <% B) ():ReturnType ={
-    ???
-  }
+//  def m1[B]()(implicit view: A => B): ReturnType = {
+//    ???
+//  }
+//
+//  def m2(A <% B) ():ReturnType ={
+//    ???
+//  }
 }

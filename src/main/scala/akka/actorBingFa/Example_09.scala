@@ -1,4 +1,4 @@
-package actorBingFa
+package akka.actorBingFa
 
 import akka.actor.{Actor, ActorLogging, ActorPath, ActorRef, ActorSelection, ActorSystem, Props}
 import akka.event.LoggingAdapter

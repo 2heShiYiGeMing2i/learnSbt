@@ -1,4 +1,4 @@
-package actorBingFa
+package akka.actorBingFa
 
 import akka.actor.TypedActor
 import akka.actor.TypedActor.{PostStop, PreStart}

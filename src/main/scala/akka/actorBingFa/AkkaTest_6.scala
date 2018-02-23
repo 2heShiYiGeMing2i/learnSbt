@@ -1,4 +1,4 @@
-package actorBingFa
+package akka.actorBingFa
 
 import akka.actor.{Actor, ActorLogging, ActorRef, ActorSystem, Props}
 import akka.pattern.{ask, pipe}

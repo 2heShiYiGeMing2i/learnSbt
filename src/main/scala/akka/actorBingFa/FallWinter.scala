@@ -1,4 +1,4 @@
-package actorBingFa
+package akka.actorBingFa
 
 /**
   * Created by zhaolei on 2018/1/23

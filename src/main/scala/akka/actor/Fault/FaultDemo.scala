@@ -22,3 +22,14 @@ class FaultDemo extends Actor {
 
 
 }
+
+object M extends App {
+  System.err.println(Long.MaxValue)
+  System.err.println(Int.MaxValue)
+  System.err.println(Long.MaxValue / Int.MaxValue)
+  val value = 1000000000L
+  System.err.println((value nanos).toString())
+  System.err.println((value nanos).toMicros.toString)
+  System.err.println((value nanos).toMillis.toString)
+  System.err.println((value nanos).toSeconds.toString)
+}

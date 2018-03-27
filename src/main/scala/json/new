@@ -1,0 +1,376 @@
+[
+  {
+    "head": "npc_you_qi",
+    "music": 1,
+    "id": 1,
+    "level": 1,
+    "name": "居远大师",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_you_qi",
+    "music": 1,
+    "id": 2,
+    "level": 1,
+    "name": "居隐大师",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_you_qi",
+    "music": 1,
+    "id": 3,
+    "level": 1,
+    "name": "大师兄",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_you_qi",
+    "music": 1,
+    "id": 4,
+    "level": 1,
+    "name": "李不凡",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_you_qi",
+    "music": 1,
+    "id": 5,
+    "level": 1,
+    "name": "小师妹",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_you_qi",
+    "music": 1,
+    "id": 6,
+    "level": 1,
+    "name": "易源",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_you_qi",
+    "music": 1,
+    "id": 7,
+    "level": 1,
+    "name": "邱盈儿",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_you_qi",
+    "music": 1,
+    "id": 8,
+    "level": 1,
+    "name": "赛隐",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_you_qi",
+    "music": 1,
+    "id": 9,
+    "level": 1,
+    "name": "魂不归",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_you_qi",
+    "music": 1,
+    "id": 10,
+    "level": 1,
+    "name": "二师兄",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_you_qi",
+    "music": 1,
+    "id": 11,
+    "level": 1,
+    "name": "沈师姐",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_you_qi",
+    "music": 1,
+    "id": 12,
+    "level": 1,
+    "name": "居山大师",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_you_qi",
+    "music": 1,
+    "id": 13,
+    "level": 1,
+    "name": "落青",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_you_qi",
+    "music": 1,
+    "chat": "那老家伙究竟把剑藏哪了……",
+    "id": 14,
+    "level": 1,
+    "name": "应阵稳",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_zhuang_zhi_xian",
+    "music": 1,
+    "id": 15,
+    "level": 1,
+    "name": "守山者",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_dao_hui",
+    "music": 1,
+    "role": "npc_dao_hui",
+    "id": 16,
+    "level": 1,
+    "name": "叶清舞",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_ning_zhi_xuan",
+    "music": 1,
+    "role": "npc_ning_zhi_xuan",
+    "id": 17,
+    "level": 1,
+    "name": "宁至璇",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_yue_bu_qi",
+    "dialog": "山雨欲来，需早作打算了",
+    "music": 1,
+    "chat": "唉，这群小猴子，就没个省心的",
+    "chat_interval": 10000,
+    "level": 1,
+    "name": "岳不器",
+    "role": "npc_yue_bu_qi",
+    "id": 18
+  },
+  {
+    "head": "npc_yue_bu_qi",
+    "default_hide": 1,
+    "dialog": "山雨欲来，需早作打算了",
+    "music": 1,
+    "chat": "唉，这群小猴子，就没个省心的",
+    "chat_interval": 10000,
+    "level": 1,
+    "name": "岳不器",
+    "role": "npc_yue_bu_qi",
+    "id": 19
+  },
+  {
+    "head": "npc_zhuang_zhi_xian",
+    "default_hide": 1,
+    "music": 1,
+    "role": "npc_zhuang_zhi_xian",
+    "id": 20,
+    "level": 1,
+    "name": "庄自闲",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_zhuang_zhi_xian",
+    "default_hide": 1,
+    "music": 1,
+    "role": "npc_zhuang_zhi_xian",
+    "id": 21,
+    "level": 1,
+    "name": "庄自闲",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_zhuang_zhi_xian",
+    "default_hide": 1,
+    "music": 1,
+    "role": "npc_zhuang_zhi_xian",
+    "id": 22,
+    "level": 1,
+    "name": "庄自闲",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_liu_mu_ling",
+    "music": 1,
+    "role": "npc_liu_mu_ling",
+    "id": 23,
+    "level": 1,
+    "name": "刘慕陵",
+    "chat_interval": 10000
+  },
+  {
+    "head": "xynpc_pu_ti_zu_shi",
+    "music": 1,
+    "role": "xynpc_pu_ti_zu_shi",
+    "id": 24,
+    "level": 1,
+    "name": "柯定山",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_gai_bang_zhang_lao",
+    "music": 1,
+    "role": "npc_gai_bang_zhang_lao",
+    "id": 25,
+    "level": 1,
+    "name": "丐帮长老",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_zhang_shu_yuan",
+    "music": 1,
+    "role": "npc_zhang_shu_yuan",
+    "id": 26,
+    "level": 1,
+    "name": "张叔源",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_liu_mu_ling",
+    "default_hide": 1,
+    "music": 1,
+    "role": "npc_liu_mu_ling",
+    "id": 27,
+    "level": 1,
+    "name": "刘慕陵",
+    "chat_interval": 10000
+  },
+  {
+    "head": "xynpc_pu_ti_zu_shi",
+    "default_hide": 1,
+    "music": 1,
+    "role": "xynpc_pu_ti_zu_shi",
+    "id": 28,
+    "level": 1,
+    "name": "柯定山",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_zhong_qing_hong",
+    "music": 1,
+    "role": "npc_zhong_qing_hong",
+    "id": 29,
+    "level": 1,
+    "name": "唐远玄",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_zhong_qing_hong",
+    "music": 1,
+    "role": "npc_zhong_qing_hong",
+    "id": 30,
+    "level": 1,
+    "name": "唐远玄",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_luo_cha_nv_chu_jie",
+    "music": 1,
+    "role": "npc_luo_cha_nv_chu_jie",
+    "id": 31,
+    "level": 1,
+    "name": "楚婕",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_you_qi",
+    "music": 1,
+    "role": "npc_you_qi",
+    "id": 32,
+    "level": 1,
+    "name": "蒋历",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_gui_shou_yi_ku",
+    "default_hide": 1,
+    "music": 1,
+    "role": "npc_gui_shou_yi_ku",
+    "id": 33,
+    "level": 1,
+    "name": "鬼手伊哭",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_yue_bu_qi",
+    "default_hide": 1,
+    "dialog": "山雨欲来，需早作打算了",
+    "music": 1,
+    "chat": "唉，这群小猴子，就没个省心的",
+    "chat_interval": 10000,
+    "level": 1,
+    "name": "赫连楚",
+    "role": "npc_yue_bu_qi",
+    "id": 34
+  },
+  {
+    "head": "npc_yue_bu_qi",
+    "default_hide": 1,
+    "dialog": "山雨欲来，需早作打算了",
+    "music": 1,
+    "chat": "唉，这群小猴子，就没个省心的",
+    "chat_interval": 10000,
+    "level": 1,
+    "name": "赫连楚",
+    "role": "npc_yue_bu_qi",
+    "id": 35
+  },
+  {
+    "head": "npc_hua_nian_ge",
+    "dialog": "多情总被无情误",
+    "music": 1,
+    "chat": "琴心悠悠，我心幽幽",
+    "chat_interval": 10000,
+    "level": 1,
+    "name": "花念歌",
+    "role": "npc_hua_nian_ge",
+    "id": 36
+  },
+  {
+    "head": "npc_shi_nv",
+    "music": 1,
+    "role": "npc_shi_nv",
+    "id": 37,
+    "level": 1,
+    "name": "侍女",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_liu_ru_shi",
+    "music": 1,
+    "role": "npc_liu_ru_shi",
+    "id": 38,
+    "level": 1,
+    "name": "柳如是",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_hui_kong",
+    "music": 1,
+    "role": "npc_hui_kong",
+    "id": 39,
+    "level": 1,
+    "name": "慧空小和尚",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_lu_bian_xiao_fan",
+    "music": 1,
+    "role": "npc_lu_bian_xiao_fan",
+    "id": 40,
+    "level": 1,
+    "name": "路边小贩",
+    "chat_interval": 10000
+  },
+  {
+    "head": "npc_dao_hui",
+    "music": 1,
+    "role": "npc_dao_hui",
+    "id": 41,
+    "level": 1,
+    "name": "移花宫主",
+    "chat_interval": 10000
+  }
+]

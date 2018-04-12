@@ -17,4 +17,7 @@ libraryDependencies ++= Seq("org.scalatest" %% "scalatest" % "3.0.4" % "test",
   "com.typesafe.akka" %% "akka-cluster-tools" % "2.5.11",
   "com.github.pathikrit" %% "better-files" % betterFileVersion,
   "org.reflections" % "reflections" % "0.9.10",
+  "com.storm-enroute" %% "scalameter" % "0.8.2",
+  "org.apache.poi" % "poi-ooxml" % "3.9",
+
 )

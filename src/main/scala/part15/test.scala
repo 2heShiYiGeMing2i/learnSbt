@@ -14,7 +14,13 @@ object test extends App {
   intToInt += 7 -> 7
   intToInt += 8 -> 8
 
-  intToInt.get(9).foreach(System.err.println)
+  private var intToInt1 = Map.empty[Int, Int]
 
+  intToInt += 1 -> 1
+  intToInt += 2 -> 2
+  intToInt += 3 -> 3
+  intToInt += 4 -> 4
+
+  System.err.println(intToInt.exists(e => intToInt.getOrElse(e._1, 0) == e._2))
 
 }

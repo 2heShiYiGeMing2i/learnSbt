@@ -21,7 +21,9 @@ libraryDependencies ++= Seq(
   "org.hibernate"        % "hibernate-validator" % "6.0.10.Final",
   "javax.el"             % "javax.el-api"        % "3.0.0",
   "org.glassfish.web"    % "javax.el"            % "2.2.6",
-  "com.esotericsoftware" % "kryo"                % "5.0.0-RC1",
+  "com.twitter"          %% "chill"              % "0.9.2",
+  //  "com.github.romix.akka" %% "akka-kryo-serialization" % "0.5.2",
+  //  "com.esotericsoftware"  % "kryo"                     % "5.0.0-RC1", // 不支持caseclass 序列化
 )
 
 val gen = taskKey[Unit]("就是 描述 咋滴吧")

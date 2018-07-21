@@ -2,8 +2,6 @@ package jAvA.HellowQuartz;
 
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
-import org.quartz.JobKey;
-import org.quartz.Trigger;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

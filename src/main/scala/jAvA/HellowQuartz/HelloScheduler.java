@@ -14,20 +14,18 @@ public class HelloScheduler {
         // jobDetail 细节绑定 exce
         JobDetail jobDetail = JobBuilder.newJob(HelloJob.class)
                 .withIdentity("myjob", "group1")
-                .usingJobData("key1","value1")
-                .usingJobData("key2",1.2F)
                 .build();
-//        System.err.println("jobDetail names " + jobDetail.getKey().getName());
-//        System.err.println("jobDetail group " + jobDetail.getKey().getGroup());
-//        System.err.println("jobDetail class " + jobDetail.getJobClass().getName());
+        Calendar startCalendar = Calendar.getInstance();
+        startCalendar.add(Calendar.SECOND, 3);
+        Calendar endCalendar = Calendar.getInstance();
+        endCalendar.add(Calendar.SECOND, 6);
 
         // 执行 规则
         Trigger trigger = TriggerBuilder
                 .newTrigger()
                 .withIdentity("mytrigger", "triggerGroup")
-                .usingJobData("key1","trigger value1")
-                .usingJobData("triggerKey2",4.5D)
-                .startNow()
+                .startAt(startCalendar.getTime())
+                .endAt(endCalendar.getTime())
                 .withSchedule(SimpleScheduleBuilder.simpleSchedule().withIntervalInSeconds(2).repeatForever())
                 .build();
 

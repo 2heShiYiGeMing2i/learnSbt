@@ -1,6 +1,9 @@
 package jAvA.HellowQuartz;
 
-import org.quartz.*;
+import org.quartz.Job;
+import org.quartz.JobExecutionContext;
+import org.quartz.JobKey;
+import org.quartz.Trigger;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -10,33 +13,6 @@ import java.util.Calendar;
  */
 public class HelloJob implements Job {
 
-    private String key1;
-    private float key2;
-    private double triggerKey2;
-
-    public String getKey1() {
-        return key1;
-    }
-
-    public void setKey1(String key1) {
-        this.key1 = key1;
-    }
-
-    public float getKey2() {
-        return key2;
-    }
-
-    public void setKey2(float key2) {
-        this.key2 = key2;
-    }
-
-    public double getTriggerKey2() {
-        return triggerKey2;
-    }
-
-    public void setTriggerKey2(double triggerKey2) {
-        this.triggerKey2 = triggerKey2;
-    }
 
     // 业务逻辑 job detail
 
@@ -47,39 +23,13 @@ public class HelloJob implements Job {
         SimpleDateFormat sf = new SimpleDateFormat("yyyy-mm-dd hh:mm:ss");
         System.err.println("current time is" + sf.format(calendar.getTime()));
 
+        Trigger trigger = context.getTrigger();
+        System.err.println("start time " + sf.format(trigger.getStartTime()));
+        System.err.println("end time " + sf.format(trigger.getEndTime()));
+        JobKey jobKey = trigger.getJobKey();
+        System.err.println("job key info name " + jobKey.getName());
+        System.err.println("job key info group " + jobKey.getGroup());
 
-
-
-
-//
-//        JobKey key = context.getJobDetail().getKey();
-//        System.err.println("detail key " + key.getName() + "  " + key.getGroup());
-//
-//        Trigger trigger = context.getTrigger();
-//        TriggerKey triggerKey = trigger.getKey();
-//        System.err.println("trigger key " + triggerKey.getName() + "  " + triggerKey.getGroup());
-//
-//        JobDetail jobDetail = context.getJobDetail();
-//        JobDataMap jobDataMap = jobDetail.getJobDataMap();
-//        JobDataMap triggerJobDataMap = trigger.getJobDataMap();
-//        String jobDataMapKey = jobDataMap.getString("key1");
-//        Float aFloat = jobDataMap.getFloat("key2");
-//        String triggerJobDataMapKey = triggerJobDataMap.getString("key1");
-//        Double aDouble = triggerJobDataMap.getDouble("triggerKey2");
-//
-//        System.err.println("job message: " + jobDataMapKey);
-//        System.err.println("job message: " + triggerJobDataMapKey);
-//        System.err.println("job message: " + aFloat);
-//        System.err.println("job message: " + aDouble);
-//
-//
-//        String key1 = context.getMergedJobDataMap().getString("key1");
-//        System.err.println("key  "  +  key1);
-//
-//
-//        System.err.println("new job message: " + getKey1());
-//        System.err.println("new job message: " + getKey2());
-//        System.err.println("new job message: " + getTriggerKey2());
 
     }
 }

@@ -23,13 +23,5 @@ public class HelloJob implements Job {
         SimpleDateFormat sf = new SimpleDateFormat("yyyy-mm-dd hh:mm:ss");
         System.err.println("current time is" + sf.format(calendar.getTime()));
 
-        Trigger trigger = context.getTrigger();
-        System.err.println("start time " + sf.format(trigger.getStartTime()));
-        System.err.println("end time " + sf.format(trigger.getEndTime()));
-        JobKey jobKey = trigger.getJobKey();
-        System.err.println("job key info name " + jobKey.getName());
-        System.err.println("job key info group " + jobKey.getGroup());
-
-
     }
 }

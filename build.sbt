@@ -22,6 +22,7 @@ libraryDependencies ++= Seq(
   "javax.el"             % "javax.el-api"        % "3.0.0",
   "org.glassfish.web"    % "javax.el"            % "2.2.6",
   "com.twitter"          %% "chill"              % "0.9.2",
+  "org.quartz-scheduler" % "quartz"              % "2.3.0",
   //  "com.github.romix.akka" %% "akka-kryo-serialization" % "0.5.2",
   //  "com.esotericsoftware"  % "kryo"                     % "5.0.0-RC1", // 不支持caseclass 序列化
 )
